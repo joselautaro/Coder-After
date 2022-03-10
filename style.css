@@ -1,0 +1,211 @@
+/* *{
+    padding: 0;
+    margin: 0;
+}
+header{
+    background-color: crimson;
+    font-family: Verdana, Geneva, Tahoma, sans-serif
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+}
+
+nav a{
+    text-decoration: none;
+    color: rgb(20, 22, 58);
+    padding: 10px;
+    margin-bottom: 25px;
+}
+
+.grid-container{
+    background-color: aqua;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 205px);
+    grid-template-areas: 
+    "banner-1 banner-1 banner-1 banner-1"
+    "noticia-1 noticia-2 noticia-3 noticia-4"
+    "noticia-5 noticia-5 noticia-6 noticia-6"
+    ;
+    text-align: center;
+    border: 1px solid black;
+    gap: 1px 1px;
+}
+.banner-1{
+    grid-area: banner-1;
+    background-color: blueviolet;
+}
+.noticia-1{
+    grid-area: noticia-1;
+    background-color:brown;
+}
+.noticia-2{
+    grid-area: noticia-2;
+    background-color: aliceblue;
+}
+.noticia-3{
+    grid-area: noticia-3;
+    background-color: burlywood;
+}
+.noticia-4{
+    grid-area: noticia-4;
+    background-color: coral;
+}
+.noticia-5{
+    grid-area: noticia-5;
+    background-color: darkgoldenrod;
+}
+.noticia-6{
+    grid-area: noticia-6;
+    background-color: red;
+}
+footer{
+    background-color: chocolate;
+    text-align: center;
+} */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+body{
+    background-color: blueviolet;
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    background-color: #788743;
+    padding: 15px;
+    margin-bottom: 10px;
+}
+nav a{
+    text-decoration: none;
+    font-family: 'Montserrat';
+}
+nav a:hover{
+    color: aquamarine;
+}
+.grid{
+    background-color: antiquewhite;
+    border: 2px solid black;
+    display: grid;
+    grid-template-columns: repeat(4, 25%);
+    grid-template-rows: repeat(3, 210px);
+    text-align: center;
+    gap: 1px 1px;
+    grid-template-areas: 
+    "banner-1 banner-1 banner-1 banner-1"
+    "noticia-1 noticia-2 noticia-3 noticia-4"
+    "noticia-5 noticia-5 noticia-6 noticia-6"
+    ;
+}
+
+.banner-1{
+    grid-area: banner-1;
+    background-color: darkkhaki;
+}
+.noticia-1{
+    grid-area: noticia-1;
+    background-color:cornflowerblue;
+}
+.noticia-2{
+    grid-area: noticia-2;
+    background-color: #454255;
+}
+.noticia-3{
+    grid-area: noticia-3;
+    background-color: #559961;
+}
+.noticia-4{
+    grid-area: noticia-4;
+    background-color: #874369;
+}
+.noticia-5{
+    grid-area: noticia-5;
+    background-color: #256278;
+}
+.noticia-6{
+    grid-area: noticia-6;
+    background-color: #251489;
+}
+
+footer{
+    text-align: center;
+}
